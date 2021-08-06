@@ -9,7 +9,7 @@ export default {
       description: 'keep it short',
       type: 'string',
     },
-    { name: 'excerpt', title: 'Excerpt' },
+    { name: 'excerpt', title: 'Excerpt', type: 'string' },
     {
       name: 'slug',
       title: 'Slug',
