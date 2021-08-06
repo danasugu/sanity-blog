@@ -6,8 +6,10 @@ export default {
     {
       name: 'title',
       title: 'Title',
+      description: 'keep it short',
       type: 'string',
     },
+    { name: 'excerpt', title: 'Excerpt' },
     {
       name: 'slug',
       title: 'Slug',
@@ -50,7 +52,7 @@ export default {
       name: 'vendor',
       title: 'Vendor',
       type: 'reference',
-      to: {type: 'vendor'},
+      to: { type: 'vendor' },
     },
     {
       name: 'blurb',
@@ -64,7 +66,7 @@ export default {
       of: [
         {
           type: 'reference',
-          to: {type: 'category'},
+          to: { type: 'category' },
         },
       ],
     },
@@ -82,4 +84,4 @@ export default {
       media: 'defaultProductVariant.images[0]',
     },
   },
-}
+};

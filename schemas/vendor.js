@@ -6,7 +6,7 @@ export default {
     {
       name: 'title',
       title: 'Title',
-      description: 'keep it short'
+      description: 'keep it short',
       type: 'string',
     },
     {
@@ -35,4 +35,4 @@ export default {
       media: 'logo',
     },
   },
-}
+};
